@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Netcall Watson Prototype
+  host: Netcall-Watson-Prototype
+  disk_quota: 1024M
+  services:
+  - retrieve-and-rank-standard
+  - Netcall Watson Prototype-cloudantNoSQLDB
